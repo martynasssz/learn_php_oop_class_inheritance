@@ -32,6 +32,6 @@
 	$customer1 = new Customer('Martin', 56, 500); //kadangi user turi protected matomuma, galime pasiekti si parametra //analiskai jeu uzsetinam kurdami objekta
 	
 	//echo $customer1->pay(500); //gausime Martin paid $500. 
-	echo $customer1->getBalance(); //gausime 500;
+	echo $customer1->getBalance(); //gausime 500; *
 
 
